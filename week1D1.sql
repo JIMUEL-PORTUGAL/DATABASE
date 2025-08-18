@@ -34,5 +34,11 @@ UPDATE typex SET type_id = 'A' WHERE type_id = 1;
 UPDATE typex SET type_id = '123' WHERE type_id = 2;
 //Changes(Update) existing values in the table.
 
+SELECT type_id AS id, type_code AS code, type_name AS name FROM typex;
+//Gets data from the typex table.
+	//Display type_id AS id
+	//Display type_code AS code
+	//Display type_name AS name
+
 DELETE FROM typex WHERE type_id = 2;
 //Removes the row where type_id = 2.
